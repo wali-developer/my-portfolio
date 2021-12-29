@@ -599,7 +599,8 @@ form input:focus {
   font-size: 14px;
   font-weight: normal;
 }
-.error404 button {
+.error404 button,
+#backToTop i {
   border: 1px solid var(--primaryColor);
   color: var(--primary-color);
   font-size: 14px !important;
@@ -612,6 +613,11 @@ form input:focus {
 .error404 button:hover {
   background-color: var(--primaryColor);
   color: #fff;
+}
+#backToTop .backIcon {
+  color: var(--primaryColor);
+  background-color: white;
+  border-radius: 50%;
 }
 
 /************** Responssivness *************/

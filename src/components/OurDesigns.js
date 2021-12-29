@@ -45,8 +45,15 @@ const OurDesigns = () => {
                 <div
                   className="col-12 col-sm-6 col-md-6 col-lg-4 template"
                   key={id}
+                  style={{ curser: "zoom-in" }}
                 >
-                  <img src={image} alt="template" className="img-fluid" />
+                  <img
+                    src={image}
+                    alt="template"
+                    className="img-fluid"
+                    role="presentation"
+                    style={{ curser: "zoom-in" }}
+                  />
                 </div>
               );
             })}
