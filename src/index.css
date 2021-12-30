@@ -914,3 +914,23 @@ form input:focus {
     width: 100%;
   }
 }
+/* Chrome */
+progress::-webkit-progress-value {
+  background: var(--primaryColor);
+  border: solid 1pt gray;
+  width: 300pt;
+  height: 20px;
+}
+
+/* Polyfill */
+progress[aria-valuenow]:before {
+  background: var(--primaryColor);
+  border: solid 1pt gray;
+  width: 300pt;
+  height: 20px;
+}
+
+progress {
+  -webkit-appearance: none;
+  appearance: none;
+}
