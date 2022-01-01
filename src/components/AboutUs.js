@@ -1,13 +1,8 @@
 import React from "react";
-import { FaLongArrowAltRight } from "react-icons/fa";
-import { Button } from "react-bootstrap";
 
 const AboutUs = () => {
   return (
     <>
-      {/* <div className="svg">
-        
-      </div> */}
       <div id="skew">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path

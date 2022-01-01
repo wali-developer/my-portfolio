@@ -135,8 +135,8 @@ const Resume = () => {
                     <span>Islamia College University Peshawar</span>
                   </h5>
                   <p className="m-0 p-0">
-                    Lorem ipsum, or lipsum as it is sometimes known, is dummy
-                    text used in laying out print, graphic or web designs
+                    Honoured to be Received Best Performance award in Bachlelor
+                    for obtaining second position in class.
                   </p>
                 </div>
               </div>

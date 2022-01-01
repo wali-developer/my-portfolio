@@ -6,7 +6,12 @@ const Footer = () => {
     <>
       <section className="Footer" id="footer">
         <div style={{ textAlign: "center" }}>
-          <img src="images/logo.png" width={"80px"} height={"60px"} />
+          <img
+            src="images/logo.png"
+            width={"80px"}
+            height={"60px"}
+            alt="Footer Logo"
+          />
         </div>
         <hr />
         <div className="bottomFooter d-flex flex-row flex-wrap justify-content-between align-items-center">
@@ -15,19 +20,29 @@ const Footer = () => {
             <a
               href="https://www.facebook.com/profile.php?id=100052034914712"
               target="_blank"
+              rel="noreferrer"
             >
               <FaFacebook />
             </a>
-            <a href="https://twitter.com/Waliull11880790" target="_blank">
+            <a
+              href="https://twitter.com/Waliull11880790"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaTwitter />
             </a>
             <a
               href="https://www.linkedin.com/in/wali-ullah-130ba0188/"
               target="_blank"
+              rel="noreferrer"
             >
               <FaLinkedinIn />
             </a>
-            <a href="https://github.com/wali-developer" target="_blank">
+            <a
+              href="https://github.com/wali-developer"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaGithub />
             </a>
           </div>
