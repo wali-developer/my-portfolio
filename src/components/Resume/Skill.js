@@ -24,7 +24,7 @@ const Skill = () => {
                   id={skill}
                   value={value}
                   max="100"
-                  className="progress"
+                  className="progress progress-primary"
                 >
                   {percentage}
                 </progress>
