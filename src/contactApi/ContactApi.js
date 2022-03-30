@@ -12,7 +12,7 @@ const ContactApi = [
   {
     icon: "<fab fa-skype",
     text: "Skype",
-    subText: "My Skype",
+    subText: "waliullah",
   },
 ];
 

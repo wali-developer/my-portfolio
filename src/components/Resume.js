@@ -27,17 +27,6 @@ const Resume = () => {
     } else {
       setAward(false);
     }
-    // else if (window.scrollY > 4000 && window.scrollY < 4500) {
-    //   setSkill(true);
-    //   setEdu(false);
-    // } else if (window.scrollY > 4500 && window.scrollY < 5000) {
-    //   setAward(true);
-    //   setSkill(false);
-    // } else {
-    //   setEdu(false);
-    //   setSkill(false);
-    //   setAward(false);
-    // }
   };
 
   window.addEventListener("scroll", handleScroll);
@@ -86,7 +75,6 @@ const Resume = () => {
                         <br></br>
                         <span>{Institute}</span>
                       </h5>
-                      {/* <span></span> */}
                       <p className="m-0 p-0">{description}</p>
                     </div>
                   </div>
@@ -118,7 +106,6 @@ const Resume = () => {
                     </div>
                   );
                 })}
-                {/* <div className="col-12 col-lg-6"></div> */}
               </div>
             </div>
             <div class="award" id="resumeAward">
